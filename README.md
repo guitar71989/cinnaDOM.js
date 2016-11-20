@@ -113,8 +113,9 @@ $cinnaDOM( () => {
 
 #### Event Handling:
 
-##### * on()
-  ⋅⋅* Takes an event type as a string and a callback functino, and adds it on each node in the DOMNodeCollection, employing  Javascript's native `addEventListener` function.
+##### on()
+
+Takes an event type as a string and a callback functino, and adds it on each node in the DOMNodeCollection, employing  Javascript's native `addEventListener` function.
 
   ```javascript
 
@@ -122,8 +123,9 @@ $cinnaDOM( () => {
 
   ```
 
-##### * off()
-  ⋅⋅* Takes an event type as a string and a callback function, and removes it from each node in the DOMNodeCollection, employing  Javascript's native `removeEventListener` function.
+##### off()
+
+Takes an event type as a string and a callback function, and removes it from each node in the DOMNodeCollection, employing  Javascript's native `removeEventListener` function.
 
   ```javascript
 
