@@ -60,7 +60,7 @@ $cinnaDOM( () => {
 
 ### Methods for DOM manipulation
 
-##### html()
+#### html()
   * Takes an optional string arguments
   * If there is an argument, then the method makes that string the `innerHTML` of each node.
   * If there is no argument, then the method returns the innerHTML of the first node.
