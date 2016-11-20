@@ -71,24 +71,24 @@ $cinnaDOM( () => {
 
   ```
 
-  empty()
-  ⋅⋅* Clears all the nodes of a collection array
+#### empty()
+  * Clears all the nodes of a collection array
 
-  append()
-  ⋅⋅* Adds the `outerHTML` of each element in argument to `innerHTML` of each element in the node collection
+#### append()
+  * Adds the `outerHTML` of each element in argument to `innerHTML` of each element in the node collection
 
-  attr()
-  ⋅⋅* Takes one or two arguments
-  ⋅⋅* If `attr()` receives one argument, the method gets the value of that attribute for the first node in the collection
-  ⋅⋅* If `attr()` receives two arguments, the method sets the attribute (the first argument) to the value (second argument) for every node in the collection.
+#### attr()
+  * Takes one or two arguments
+  * If `attr()` receives one argument, the method gets the value of that attribute for the first node in the collection
+  * If `attr()` receives two arguments, the method sets the attribute (the first argument) to the value (second argument) for every node in the collection.
 
-  addClass(args)
-  ⋅⋅* Takes a class as an argument and adds the class to each element in the DOMNodeCollection
+#### addClass(args)
+  * Takes a class as an argument and adds the class to each element in the DOMNodeCollection
 
 
 
-  removeClass(args)
-  ⋅⋅* Takes a class as an argument and removes the class to each element in the DOMNodeCollection
+#### removeClass(args)
+  * Takes a class as an argument and removes the class to each element in the DOMNodeCollection
 
   ```javascript
 
@@ -108,9 +108,12 @@ $cinnaDOM( () => {
 
   ```
 
-Event Handling:
 
-  on()
+### Additional core functionality of cinnaDOM:
+
+#### Event Handling:
+
+##### * on()
   ⋅⋅* Takes an event type as a string and a callback functino, and adds it on each node in the DOMNodeCollection, employing  Javascript's native `addEventListener` function.
 
   ```javascript
@@ -119,7 +122,7 @@ Event Handling:
 
   ```
 
-  off()
+##### * off()
   ⋅⋅* Takes an event type as a string and a callback function, and removes it from each node in the DOMNodeCollection, employing  Javascript's native `removeEventListener` function.
 
   ```javascript
@@ -127,8 +130,6 @@ Event Handling:
     $cinnaDOM(window).off('keydown', this.addKeydownListeners);
 
   ```
-
-### Additional core functionality of cinnaDOM:
 
 #### Document ready asynchronicity:
 
